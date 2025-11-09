@@ -11,7 +11,7 @@ bl_info = {
 }
 
 import bpy
-from operator import OBJECT_OT_select_by_material, draw_menu_item
+from .operator import OBJECT_OT_select_by_material, draw_menu_item
 
 classes = (
     OBJECT_OT_select_by_material,
